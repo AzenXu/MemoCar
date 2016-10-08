@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5B26BB01DA8891800CC1F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B26BAF1DA8891800CC1F31 /* AppDelegate.swift */; };
+		B5B26BB21DA8891800CC1F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B26BB11DA8891800CC1F31 /* ViewController.swift */; };
+		B5B26BB51DA8891800CC1F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B26BB31DA8891800CC1F31 /* Main.storyboard */; };
+		B5B26BB71DA8891800CC1F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B26BB61DA8891800CC1F31 /* Assets.xcassets */; };
+		B5B26BBA1DA8891800CC1F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B26BB81DA8891800CC1F31 /* LaunchScreen.storyboard */; };
+		B5B26BC51DA8891800CC1F31 /* memoCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B26BC41DA8891800CC1F31 /* memoCarUITests.swift */; };
+		B5B26BD01DA8893E00CC1F31 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B26BCF1DA8893E00CC1F31 /* Configs.swift */; };
+		C32B91068D08E8D98E2BBFE6 /* Pods_memoCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB519357CAB67FF948CBDEF9 /* Pods_memoCar.framework */; };
+		E0C070F1209FDAAFAF5C6B78 /* Pods_memoCarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3088AA94CEC4FFBFB0B73B6E /* Pods_memoCarUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5B26BC11DA8891800CC1F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B26BA41DA8891800CC1F31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B26BAB1DA8891800CC1F31;
+			remoteInfo = memoCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204D242C409FB24DFD4F955C /* Pods-memoCarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memoCarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-memoCarUITests/Pods-memoCarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3088AA94CEC4FFBFB0B73B6E /* Pods_memoCarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memoCarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		428333DD6A9849961E0CF72E /* Pods-memoCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memoCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-memoCar/Pods-memoCar.release.xcconfig"; sourceTree = "<group>"; };
+		B5B26BAC1DA8891800CC1F31 /* memoCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B26BAF1DA8891800CC1F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5B26BB11DA8891800CC1F31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5B26BB41DA8891800CC1F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5B26BB61DA8891800CC1F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5B26BB91DA8891800CC1F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5B26BBB1DA8891800CC1F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B26BC01DA8891800CC1F31 /* memoCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B26BC41DA8891800CC1F31 /* memoCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoCarUITests.swift; sourceTree = "<group>"; };
+		B5B26BC61DA8891800CC1F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B26BCF1DA8893E00CC1F31 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		BB522993A2A2B49F7A24E407 /* Pods-memoCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memoCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-memoCar/Pods-memoCar.debug.xcconfig"; sourceTree = "<group>"; };
+		CB519357CAB67FF948CBDEF9 /* Pods_memoCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memoCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05C1447A48F50D552012E8B /* Pods-memoCarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memoCarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-memoCarUITests/Pods-memoCarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B26BA91DA8891800CC1F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32B91068D08E8D98E2BBFE6 /* Pods_memoCar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B26BBD1DA8891800CC1F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C070F1209FDAAFAF5C6B78 /* Pods_memoCarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303636F073097732BBF3A36C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB519357CAB67FF948CBDEF9 /* Pods_memoCar.framework */,
+				3088AA94CEC4FFBFB0B73B6E /* Pods_memoCarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3629DFB68841350E7670E19A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB522993A2A2B49F7A24E407 /* Pods-memoCar.debug.xcconfig */,
+				428333DD6A9849961E0CF72E /* Pods-memoCar.release.xcconfig */,
+				D05C1447A48F50D552012E8B /* Pods-memoCarUITests.debug.xcconfig */,
+				204D242C409FB24DFD4F955C /* Pods-memoCarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5B26BA31DA8891800CC1F31 = {
+			isa = PBXGroup;
+			children = (
+				B5B26BAE1DA8891800CC1F31 /* memoCar */,
+				B5B26BC31DA8891800CC1F31 /* memoCarUITests */,
+				B5B26BAD1DA8891800CC1F31 /* Products */,
+				3629DFB68841350E7670E19A /* Pods */,
+				303636F073097732BBF3A36C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B26BAD1DA8891800CC1F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B26BAC1DA8891800CC1F31 /* memoCar.app */,
+				B5B26BC01DA8891800CC1F31 /* memoCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B26BAE1DA8891800CC1F31 /* memoCar */ = {
+			isa = PBXGroup;
+			children = (
+				B5B26BAF1DA8891800CC1F31 /* AppDelegate.swift */,
+				B5B26BCF1DA8893E00CC1F31 /* Configs.swift */,
+				B5B26BB11DA8891800CC1F31 /* ViewController.swift */,
+				B5B26BB31DA8891800CC1F31 /* Main.storyboard */,
+				B5B26BB61DA8891800CC1F31 /* Assets.xcassets */,
+				B5B26BB81DA8891800CC1F31 /* LaunchScreen.storyboard */,
+				B5B26BBB1DA8891800CC1F31 /* Info.plist */,
+			);
+			path = memoCar;
+			sourceTree = "<group>";
+		};
+		B5B26BC31DA8891800CC1F31 /* memoCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B26BC41DA8891800CC1F31 /* memoCarUITests.swift */,
+				B5B26BC61DA8891800CC1F31 /* Info.plist */,
+			);
+			path = memoCarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B26BAB1DA8891800CC1F31 /* memoCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B26BC91DA8891800CC1F31 /* Build configuration list for PBXNativeTarget "memoCar" */;
+			buildPhases = (
+				9F55AE2F4C1BA353CD47D59A /* [CP] Check Pods Manifest.lock */,
+				B5B26BA81DA8891800CC1F31 /* Sources */,
+				B5B26BA91DA8891800CC1F31 /* Frameworks */,
+				B5B26BAA1DA8891800CC1F31 /* Resources */,
+				8A99EE483EF4A3E411439EB2 /* [CP] Embed Pods Frameworks */,
+				605F15E7C0020582A5C17961 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memoCar;
+			productName = memoCar;
+			productReference = B5B26BAC1DA8891800CC1F31 /* memoCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5B26BBF1DA8891800CC1F31 /* memoCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B26BCC1DA8891800CC1F31 /* Build configuration list for PBXNativeTarget "memoCarUITests" */;
+			buildPhases = (
+				02F80A5DE74364BDEB81D2B4 /* [CP] Check Pods Manifest.lock */,
+				B5B26BBC1DA8891800CC1F31 /* Sources */,
+				B5B26BBD1DA8891800CC1F31 /* Frameworks */,
+				B5B26BBE1DA8891800CC1F31 /* Resources */,
+				3EADEF9FF05F0A1511CF6CD0 /* [CP] Embed Pods Frameworks */,
+				534AC75E87B018740AA64115 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5B26BC21DA8891800CC1F31 /* PBXTargetDependency */,
+			);
+			name = memoCarUITests;
+			productName = memoCarUITests;
+			productReference = B5B26BC01DA8891800CC1F31 /* memoCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B26BA41DA8891800CC1F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = azen;
+				TargetAttributes = {
+					B5B26BAB1DA8891800CC1F31 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L9R8GRVYKZ;
+						ProvisioningStyle = Automatic;
+					};
+					B5B26BBF1DA8891800CC1F31 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L9R8GRVYKZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5B26BAB1DA8891800CC1F31;
+					};
+				};
+			};
+			buildConfigurationList = B5B26BA71DA8891800CC1F31 /* Build configuration list for PBXProject "memoCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5B26BA31DA8891800CC1F31;
+			productRefGroup = B5B26BAD1DA8891800CC1F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B26BAB1DA8891800CC1F31 /* memoCar */,
+				B5B26BBF1DA8891800CC1F31 /* memoCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5B26BAA1DA8891800CC1F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B26BBA1DA8891800CC1F31 /* LaunchScreen.storyboard in Resources */,
+				B5B26BB71DA8891800CC1F31 /* Assets.xcassets in Resources */,
+				B5B26BB51DA8891800CC1F31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B26BBE1DA8891800CC1F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02F80A5DE74364BDEB81D2B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EADEF9FF05F0A1511CF6CD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memoCarUITests/Pods-memoCarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534AC75E87B018740AA64115 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memoCarUITests/Pods-memoCarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		605F15E7C0020582A5C17961 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memoCar/Pods-memoCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A99EE483EF4A3E411439EB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memoCar/Pods-memoCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F55AE2F4C1BA353CD47D59A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B26BA81DA8891800CC1F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B26BB21DA8891800CC1F31 /* ViewController.swift in Sources */,
+				B5B26BB01DA8891800CC1F31 /* AppDelegate.swift in Sources */,
+				B5B26BD01DA8893E00CC1F31 /* Configs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B26BBC1DA8891800CC1F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B26BC51DA8891800CC1F31 /* memoCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5B26BC21DA8891800CC1F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B26BAB1DA8891800CC1F31 /* memoCar */;
+			targetProxy = B5B26BC11DA8891800CC1F31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5B26BB31DA8891800CC1F31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B26BB41DA8891800CC1F31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5B26BB81DA8891800CC1F31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B26BB91DA8891800CC1F31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5B26BC71DA8891800CC1F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5B26BC81DA8891800CC1F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5B26BCA1DA8891800CC1F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB522993A2A2B49F7A24E407 /* Pods-memoCar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9R8GRVYKZ;
+				INFOPLIST_FILE = memoCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azen.memoCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B5B26BCB1DA8891800CC1F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428333DD6A9849961E0CF72E /* Pods-memoCar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9R8GRVYKZ;
+				INFOPLIST_FILE = memoCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azen.memoCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B5B26BCD1DA8891800CC1F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05C1447A48F50D552012E8B /* Pods-memoCarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L9R8GRVYKZ;
+				INFOPLIST_FILE = memoCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azen.memoCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = memoCar;
+			};
+			name = Debug;
+		};
+		B5B26BCE1DA8891800CC1F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204D242C409FB24DFD4F955C /* Pods-memoCarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L9R8GRVYKZ;
+				INFOPLIST_FILE = memoCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azen.memoCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = memoCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B26BA71DA8891800CC1F31 /* Build configuration list for PBXProject "memoCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B26BC71DA8891800CC1F31 /* Debug */,
+				B5B26BC81DA8891800CC1F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B26BC91DA8891800CC1F31 /* Build configuration list for PBXNativeTarget "memoCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B26BCA1DA8891800CC1F31 /* Debug */,
+				B5B26BCB1DA8891800CC1F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B26BCC1DA8891800CC1F31 /* Build configuration list for PBXNativeTarget "memoCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B26BCD1DA8891800CC1F31 /* Debug */,
+				B5B26BCE1DA8891800CC1F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B26BA41DA8891800CC1F31 /* Project object */;
+}
