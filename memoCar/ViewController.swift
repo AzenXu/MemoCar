@@ -39,6 +39,7 @@ extension ViewController {
             $0.delegate = self
             $0.showsUserLocation = true //  需要配置好Info.plist才有效 - 显示用户定位
             $0.setUserTrackingMode(MAUserTrackingMode.follow, animated: true)   //  用户居中显示，地图跟着用户移动
+            $0.isRotateCameraEnabled = false    //  禁用倾斜手势
         }
     }
     //  添加大头针 - 附近的车，可自定义图片
