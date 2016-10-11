@@ -12,6 +12,7 @@ import SnapKit
 
 class ViewController: UIViewController {
     lazy var mapView: MAMapView = {return MAMapView()}()
+    
 }
 
 extension ViewController {
