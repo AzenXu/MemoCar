@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50C6FAD1DA8B92A001EBD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50C6FAC1DA8B92A001EBD9C /* Main.storyboard */; };
+		B50C6FB41DA8BB81001EBD9C /* Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C6FB31DA8BB81001EBD9C /* Managers.swift */; };
+		B50C6FB61DA8BF59001EBD9C /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C6FB51DA8BF59001EBD9C /* CustomViews.swift */; };
 		B5B26BB01DA8891800CC1F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B26BAF1DA8891800CC1F31 /* AppDelegate.swift */; };
 		B5B26BB21DA8891800CC1F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B26BB11DA8891800CC1F31 /* ViewController.swift */; };
-		B5B26BB51DA8891800CC1F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B26BB31DA8891800CC1F31 /* Main.storyboard */; };
 		B5B26BB71DA8891800CC1F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B26BB61DA8891800CC1F31 /* Assets.xcassets */; };
 		B5B26BBA1DA8891800CC1F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B26BB81DA8891800CC1F31 /* LaunchScreen.storyboard */; };
 		B5B26BC51DA8891800CC1F31 /* memoCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B26BC41DA8891800CC1F31 /* memoCarUITests.swift */; };
@@ -32,10 +34,13 @@
 		204D242C409FB24DFD4F955C /* Pods-memoCarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memoCarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-memoCarUITests/Pods-memoCarUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3088AA94CEC4FFBFB0B73B6E /* Pods_memoCarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memoCarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		428333DD6A9849961E0CF72E /* Pods-memoCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memoCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-memoCar/Pods-memoCar.release.xcconfig"; sourceTree = "<group>"; };
+		B50C6FAC1DA8B92A001EBD9C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B50C6FAF1DA8BA79001EBD9C /* memoCar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "memoCar-Bridging-Header.h"; sourceTree = "<group>"; };
+		B50C6FB31DA8BB81001EBD9C /* Managers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Managers.swift; sourceTree = "<group>"; };
+		B50C6FB51DA8BF59001EBD9C /* CustomViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 		B5B26BAC1DA8891800CC1F31 /* memoCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B26BAF1DA8891800CC1F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B26BB11DA8891800CC1F31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5B26BB41DA8891800CC1F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B26BB61DA8891800CC1F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B26BB91DA8891800CC1F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B26BBB1DA8891800CC1F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +93,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B50C6FAE1DA8B95C001EBD9C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B5B26BB61DA8891800CC1F31 /* Assets.xcassets */,
+				B50C6FAC1DA8B92A001EBD9C /* Main.storyboard */,
+				B5B26BB81DA8891800CC1F31 /* LaunchScreen.storyboard */,
+				B5B26BBB1DA8891800CC1F31 /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		B5B26BA31DA8891800CC1F31 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +112,7 @@
 				B5B26BAD1DA8891800CC1F31 /* Products */,
 				3629DFB68841350E7670E19A /* Pods */,
 				303636F073097732BBF3A36C /* Frameworks */,
+				B50C6FAF1DA8BA79001EBD9C /* memoCar-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,12 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				B5B26BAF1DA8891800CC1F31 /* AppDelegate.swift */,
-				B5B26BCF1DA8893E00CC1F31 /* Configs.swift */,
 				B5B26BB11DA8891800CC1F31 /* ViewController.swift */,
-				B5B26BB31DA8891800CC1F31 /* Main.storyboard */,
-				B5B26BB61DA8891800CC1F31 /* Assets.xcassets */,
-				B5B26BB81DA8891800CC1F31 /* LaunchScreen.storyboard */,
-				B5B26BBB1DA8891800CC1F31 /* Info.plist */,
+				B5B26BCF1DA8893E00CC1F31 /* Configs.swift */,
+				B50C6FB31DA8BB81001EBD9C /* Managers.swift */,
+				B50C6FB51DA8BF59001EBD9C /* CustomViews.swift */,
+				B50C6FAE1DA8B95C001EBD9C /* Resource */,
 			);
 			path = memoCar;
 			sourceTree = "<group>";
@@ -188,6 +204,7 @@
 					B5B26BAB1DA8891800CC1F31 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = L9R8GRVYKZ;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					B5B26BBF1DA8891800CC1F31 = {
@@ -222,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50C6FAD1DA8B92A001EBD9C /* Main.storyboard in Resources */,
 				B5B26BBA1DA8891800CC1F31 /* LaunchScreen.storyboard in Resources */,
 				B5B26BB71DA8891800CC1F31 /* Assets.xcassets in Resources */,
-				B5B26BB51DA8891800CC1F31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +354,9 @@
 			files = (
 				B5B26BB21DA8891800CC1F31 /* ViewController.swift in Sources */,
 				B5B26BB01DA8891800CC1F31 /* AppDelegate.swift in Sources */,
+				B50C6FB61DA8BF59001EBD9C /* CustomViews.swift in Sources */,
 				B5B26BD01DA8893E00CC1F31 /* Configs.swift in Sources */,
+				B50C6FB41DA8BB81001EBD9C /* Managers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5B26BB31DA8891800CC1F31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5B26BB41DA8891800CC1F31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5B26BB81DA8891800CC1F31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -475,11 +486,15 @@
 			baseConfigurationReference = BB522993A2A2B49F7A24E407 /* Pods-memoCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L9R8GRVYKZ;
 				INFOPLIST_FILE = memoCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azen.memoCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "memoCar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -489,11 +504,14 @@
 			baseConfigurationReference = 428333DD6A9849961E0CF72E /* Pods-memoCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L9R8GRVYKZ;
 				INFOPLIST_FILE = memoCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azen.memoCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "memoCar-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -9,6 +9,8 @@ target 'memoCar' do
   pod 'AMapNavi'
   pod 'AMapLocation'
   pod 'AMapSearch'
+  pod 'SnapKit'
+  pod 'Then'
   
   target 'memoCarUITests' do
     inherit! :search_paths
